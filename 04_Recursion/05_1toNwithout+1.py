@@ -1,8 +1,8 @@
-def rec(i, n): 
-    if i< 1: 
+def rec(i): 
+    if i== 0: 
         return 
-    rec(i -1, n)
-    print(i)
+    rec(i -1)
+    print(i, end=" ")
 
 n = 3 
-rec(n, n)
+rec(n)

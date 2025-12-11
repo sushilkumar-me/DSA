@@ -12,4 +12,4 @@ def primecheck(n):
     else: 
         return False
 
-print(primecheck(1))
+print(primecheck(2))

@@ -33,7 +33,7 @@ def optimal_solution(arr):
             arr[mid], arr[high] = arr[high], arr[mid]
             mid +=1
             high -= 1
-        return arr
+    return arr
 
 arr = [0,1,2,0,1,2,1,2,0,0,0,1]
 print(better_solution(arr))
